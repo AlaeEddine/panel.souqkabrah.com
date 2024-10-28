@@ -1,0 +1,28 @@
+@font-face {
+	font-family: arabicFont;
+	src: url(../fonts/arabic.ttf);
+}
+.os-text{
+	color:#F7941D !important;
+}
+.os-border{
+	border:1px solid #F7941D !important;
+}
+.os-backgorund{
+	background-color:#F7941D !important;
+}
+html,body,label,input,select,textarea,button{
+    font-family: "arabicFont" !important;
+}
+.rtl{
+    direction: rtl !important;
+    text-align: right !important;
+}
+.ltr{
+    direction: ltr !important;
+    text-align: left !important;
+}
+.os-icon{
+    width:10px !important;
+    height:10px !important;
+}
